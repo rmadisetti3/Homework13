@@ -9,7 +9,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static('public'));
 
-mongoose.connect('mongodb://localhost/todoList', { useNewUrlParser: true });
+mongoose.connect('mongodb://user:password1@ds161890.mlab.com:61890/heroku_m3dnwtg8', { useNewUrlParser: true });
 
 
 require('./sockets/message-sockets')(io);
