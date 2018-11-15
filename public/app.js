@@ -1,5 +1,4 @@
-const socket = io();
-$(function () {
+//const socket = io();
 
   const render = function () {
       $('#holder').empty();
@@ -82,5 +81,3 @@ $(function () {
   });
 
   render();
-
-});
